@@ -32,9 +32,12 @@
 | Anti-bait   |        | Done |
 
 ## Slay the Spire projects
+
 | Project     | Description | Status |
 | ----------- | ----------- | ----------- |
 | New act 3 bosses      |        | Implementation done for 3, balancing for 2, some design issues to resolve, art needed |
 | Downfall bosses     |        | Initial versions done, likely waited too long and they've moved on |
 | Rebalance mod      |        | A few ideas |
 | Mirrors      | Adds 1 boss, 1 elite, 1 normal enemy       | Done, but a bit ugly. One bug report |
+
+
