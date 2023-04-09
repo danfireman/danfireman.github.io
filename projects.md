@@ -24,6 +24,7 @@
 | Unit states: aggressive/defensive     | These states would dictate whether unit AI would try and avoid coming into range of another unit. Good for Recluse vs stinger       | Idea |
 | Avoidance Unit AI     | Cloaked units avoid getting decloaked, even when attack moving. Combinable with the above unit states idea       | Functional but a bit buggy |
 | Cyclops Inching      |        | Needs rework |
+| Gnat smart targetting | Makes gnats and other stunners spread out to stun other targets if current target would be permastunned by current amount of gnats | Idea |
 | Funnelweb rework    |        | Several ideas, none approved yet |
 | New Funnelweb    |        | Done |
 | Bomber reload UI    |        | Done, finished by sprunk |
@@ -41,5 +42,6 @@
 | Downfall bosses     |        | Initial versions done, likely waited too long and they've moved on |
 | Rebalance mod      |        | A few ideas |
 | Mirrors      | Adds 1 boss, 1 elite, 1 normal enemy       | Done, but a bit ugly. One bug report |
+| Aquatic act      | Adds entire act       | Specced by redditor, no work started |
 
 
