@@ -27,7 +27,7 @@
 | Gnat smart targetting | Makes gnats and other stunners spread out to stun other targets if current target would be permastunned by current amount of gnats | Idea |
 | Funnelweb rework    |        | Several ideas, none approved yet |
 | Teleporter/portal superweapon | | Concept still blurry |
-| Alternative elo systems | website displaying other elo systems and allowing balancing | specced out in discord |
+| Alternative elo systems | Each mod getting its own ELO that is used for balancing, mods could specify whether they also include base ZK games for balancing | idea |
 | Website API | e.g battles, maps, players | idea |
 | New Funnelweb    |        | Done |
 | Bomber reload UI    |        | Done, finished by sprunk |
