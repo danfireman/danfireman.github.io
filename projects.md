@@ -26,7 +26,9 @@
 | Cyclops Inching      |        | Needs rework |
 | Gnat smart targetting | Makes gnats and other stunners spread out to stun other targets if current target would be permastunned by current amount of gnats | Idea |
 | Funnelweb rework    |        | Several ideas, none approved yet |
-| Teleporter/portal superweapon | | Concept still blurry Z
+| Teleporter/portal superweapon | | Concept still blurry |
+| Alternative elo systems | website displaying other elo systems and allowing balancing | specced out in discord |
+| Website API | e.g battles, maps, players | idea |
 | New Funnelweb    |        | Done |
 | Bomber reload UI    |        | Done, finished by sprunk |
 | Shield damage display UI    |        | Done |
