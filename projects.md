@@ -26,6 +26,7 @@
 | Cyclops Inching      |        | Needs rework |
 | Gnat smart targetting | Makes gnats and other stunners spread out to stun other targets if current target would be permastunned by current amount of gnats | Idea |
 | Funnelweb rework    |        | Several ideas, none approved yet |
+| Teleporter/portal superweapon | | Concept still blurry Z
 | New Funnelweb    |        | Done |
 | Bomber reload UI    |        | Done, finished by sprunk |
 | Shield damage display UI    |        | Done |
@@ -42,6 +43,6 @@
 | Downfall bosses     |        | Initial versions done, likely waited too long and they've moved on |
 | Rebalance mod      |        | A few ideas |
 | Mirrors      | Adds 1 boss, 1 elite, 1 normal enemy       | Done, but a bit ugly. One bug report |
-| Aquatic act      | Adds entire act       | Specced by redditor, no work started |
+| Aquatic act      | Adds entire act       | Specced by redditor, act framework started but not functional |
 
 
