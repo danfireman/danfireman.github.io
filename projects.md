@@ -18,7 +18,7 @@
 | Unit spread dist toggle     | Makes units try and keep their distance from eachother to avoid AoE       | Idea |
 | Unit balling     | Useful for easier shieldball and Pala control: being able to designate a group of units and select a leader, the other units will then circle the leader and get lower selection rank than it. Any other units assigned to guard the leader also join the party      | Idea |
 | Imp com helper   | Widget that lets you make an imp periodically move to follow your com when nothing is in LoS, then bury so that it can trap enemy attackers | Idea|
-| Snitch helper   | Widget that automatically takes care of the reserve of snitches for you, spreading them, following the Iris and changing selection priorities so there's always one available to select, slows the selectable one down at edge of Iris range to stay within cloak unless you hold control | Idea|
+| Snitch helper   | Widget that automatically takes care of the reserve of snitches for you, spreading them, following the Iris and changing selection priorities so there's always one available to select. Slows the selectable one down at edge of Iris range to stay within cloak unless you hold control. Makes bomb Iris pull back from enemy by default | Idea|
 | Unit follow/positioning widget     | Tethers a unit to another, making it try and keep a small distance from it       | Design, needs keybinding decided |
 | Area mex with turrets     |        | Functional, needs keybinding |
 | Unit states: aggressive/defensive     | These states would dictate whether unit AI would try and avoid coming into range of another unit. Good for Recluse vs stinger       | Idea |
