@@ -14,7 +14,7 @@
 | Legible teams AI    |        | Architecture and libraries partly done, design outline done |
 | AI tweaks    | Requested AI tweaks: no-rush mode, something between Normal and Hard AI, faster finishes by both AI (AI should resign) and player (AI should get better at finishing off the player)      | idea |
 | Overdrive payback    |        | Functional, some tidy up desireable |
-| Map resizer     |        | Some implementation ideas |
+| Map resizer     |        | Parser complete, some write issue |
 | Unit spread dist toggle     | Makes units try and keep their distance from eachother to avoid AoE       | Idea |
 | Unit balling     | Useful for easier shieldball and Pala control: being able to designate a group of units and select a leader, the other units will then circle the leader and get lower selection rank than it. Any other units assigned to guard the leader also join the party      | Idea |
 | Imp com helper   | Widget that lets you make an imp periodically move to follow your com when nothing is in LoS, then bury so that it can trap enemy attackers | Idea|
