@@ -25,6 +25,7 @@
 | Avoidance Unit AI     | Cloaked units avoid getting decloaked, even when attack moving. Combinable with the above unit states idea       | Functional but a bit buggy |
 | Cyclops Inching      |        | Needs rework |
 | Gnat smart targetting | Makes gnats and other stunners spread out to stun other targets if current target would be permastunned by current amount of gnats | Idea |
+| Impaler clever targetting | Impaler should have a setting to ignore units | Idea |
 | Funnelweb rework    |        | Several ideas, none approved yet |
 | Teleporter/portal superweapon | | Concept still blurry |
 | One-click iris making | | Idea |
