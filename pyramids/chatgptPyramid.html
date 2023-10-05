@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Style for population pyramid */
+    .population-pyramid {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      width: 400px;
+      height: 400px;
+      border: 1px solid #ccc;
+    }
+
+    .bar {
+      flex-grow: 1;
+      background-color: #007bff;
+      margin: 0 2px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Population Pyramid</h1>
+  <div class="population-pyramid" id="population-pyramid"></div>
+
+  <script>
+    // Function to load CSV data
+    async function loadCSV(url) {
+      const response = await fetch(url);
+      const data = await response.text();
+      return data;
+    }
+
+    // Function to parse CSV data
+    function parseCSV(csv) {
+      const lines = csv.trim().split('\n');
+      const header = lines.shift().split(',');
+
+      const maleData = [];
+      const femaleData = [];
+
+      lines.forEach(line => {
+        const values = line.split(',');
+        const age = parseInt(values[0]);
+        const malePopulation = parseInt(values[1]);
+        const femalePopulation = parseInt(values[2]);
+
+        maleData.push({ age, population: malePopulation });
+        femaleData.push({ age, population: femalePopulation });
+      });
+
+      return { maleData, femaleData };
+    }
+
+    // Function to create population pyramid
+    function createPopulationPyramid(maleData, femaleData) {
+      const pyramidContainer = document.getElementById('population-pyramid');
+
+      maleData.forEach(data => {
+        const maleBar = document.createElement('div');
+        maleBar.className = 'bar';
+        maleBar.style.height = `${data.population}px`;
+        pyramidContainer.appendChild(maleBar);
+      });
+
+      femaleData.reverse().forEach(data => {
+        const femaleBar = document.createElement('div');
+        femaleBar.className = 'bar';
+        femaleBar.style.height = `${data.population}px`;
+        pyramidContainer.appendChild(femaleBar);
+      });
+    }
+
+    // Main function to load and display data
+    async function main() {
+      try {
+        const csvURL = 'https://danfireman.github.io/pyramids/italy.csv';
+        const csvData = await loadCSV(csvURL);
+        const { maleData, femaleData } = parseCSV(csvData);
+        createPopulationPyramid(maleData, femaleData);
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    }
+
+    main();
+  </script>
+</body>
+</html>
