@@ -14,7 +14,7 @@
 | Legible teams AI    |        | Architecture and libraries partly done, design outline done |
 | AI tweaks    | Requested AI tweaks: no-rush mode, something between Normal and Hard AI, faster finishes by both AI (AI should resign) and player (AI should get better at finishing off the player)      | idea |
 | Overdrive payback    |        | Functional, some tidy up desireable |
-| Map resizer     |        | Parser complete, some write issue |
+| Map resizer     |        | Generates resized maps, needs to place textures and support more diverse formats |
 | Unit spread dist toggle     | Makes units try and keep their distance from eachother to avoid AoE       | Idea |
 | Unit balling     | Useful for easier shieldball and Pala control: being able to designate a group of units and select a leader, the other units will then circle the leader and get lower selection rank than it. Any other units assigned to guard the leader also join the party      | Idea |
 | Imp com helper   | Widget that lets you make an imp periodically move to follow your com when nothing is in LoS, then bury so that it can trap enemy attackers | Idea|
@@ -32,6 +32,8 @@
 | Army size overlay | | Idea |
 | Alternative elo systems | Each mod getting its own ELO that is used for balancing, mods could specify whether they also include base ZK games for balancing | idea |
 | Website API | e.g battles, maps, players | idea |
+| Lobster double-bounce bug | Ensure Lobster groups don't jump in place a second redundant time after their first jump | Solution designed |
+| Lobster army jump pathing | Allow queued bounce sequences - showing on mouseover number of jumps required to get somewhere and ensuring the army gets there as quick as possible (via chained jumps) | Concept |
 | New Funnelweb    |        | Done |
 | Bomber reload UI    |        | Done, finished by sprunk |
 | Shield damage display UI    |        | Done |
@@ -44,7 +46,8 @@
 
 | Project     | Description | Status |
 | ----------- | ----------- | ----------- |
-| New act 3 bosses      |        | Implementation done for 3, balancing for 2, some design issues to resolve, art needed |
+| New act 3 bosses      |        | Implementation done for 4, balancing for 4, idea phase for 2, some design issues to resolve, art needed |
+| New act 2 bosses      |        | Initial work done for 1, design issues to resolve, art needed |
 | Downfall bosses     |        | Initial versions done, likely waited too long and they've moved on |
 | Rebalance mod      |        | A few ideas |
 | Mirrors      | Adds 1 boss, 1 elite, 1 normal enemy       | Done, but a bit ugly. One bug report |
